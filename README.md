@@ -94,8 +94,7 @@ sudo apt update
 ```
 sudo apt install nginx
 ```
-
-
-thankyoyu!
+NOW YOU HAVE SUCCESSFULY INSTALL NGINX NEW STABLE VERSION 1.20.2 ,but some time you have some ,little bit problem. 
+=================================================================================================================
 
 
