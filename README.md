@@ -94,7 +94,15 @@ sudo apt update
 ```
 sudo apt install nginx
 ```
-NOW YOU HAVE SUCCESSFULY INSTALL NGINX NEW STABLE VERSION 1.20.2 ,but some time you have some ,little bit problem. 
+NOW YOU HAVE SUCCESSFULLY INSTALL NGINX NEW STABLE VERSION 1.20.2 ,but some time you have some ,little bit problem. 
 =================================================================================================================
 
+i have attached the default nginx.conf file replace with the new one,on the save path.
+```
+cd /etc/nginx/;ls
+```
+also define the directory of sites-avalible and sites-enabled in the same above path.
+
+
+SEE YOU NEXT TIME, BEST OF LUCK
 
