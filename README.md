@@ -193,6 +193,7 @@ also create the directory of sites-avalible and sites-enabled in the same above 
 ```
 mkdir /etc/nginx/sites-enabled/
 ```
+
 ```
 mkdir /etc/nginx/sites-available/
 ```
