@@ -53,11 +53,10 @@ Version	Supported platforms
 2 (LTS)	x86_64, aarch64/arm64
 ```
 
-_________________________________________
+![Logo-composer-tutsplus](https://user-images.githubusercontent.com/71556060/180937524-44f88a03-d0c8-4a29-b3be-885fcde022e9.png)
 
-![kisspng-composer-php-package-manager-drush-library-composer-stickker-5b7c1d13bced67 5431872515348605637739](https://user-images.githubusercontent.com/71556060/180937054-9bfc15ad-0917-48fa-a1fa-481eb2c7e879.jpg)
 
-## Install Howto
+## How To Install 
 
 >If you want to install version 1.20.2 specifically, you will need to add the official nginx repository to your Sources list.
 
