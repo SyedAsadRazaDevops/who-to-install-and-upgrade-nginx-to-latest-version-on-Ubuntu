@@ -55,7 +55,7 @@ Version	Supported platforms
 
 _________________________________________
 
-![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
+![kisspng-composer-php-package-manager-drush-library-composer-stickker-5b7c1d13bced67 5431872515348605637739](https://user-images.githubusercontent.com/71556060/180937054-9bfc15ad-0917-48fa-a1fa-481eb2c7e879.jpg)
 
 ## Install Howto
 
