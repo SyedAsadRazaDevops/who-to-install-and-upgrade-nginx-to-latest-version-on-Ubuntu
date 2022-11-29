@@ -53,10 +53,9 @@ Version	Supported platforms
 2 (LTS)	x86_64, aarch64/arm64
 ```
 
-![Logo-composer-tutsplus](https://user-images.githubusercontent.com/71556060/180937524-44f88a03-d0c8-4a29-b3be-885fcde022e9.png)
+![image](https://user-images.githubusercontent.com/71556060/204502437-b4d3b759-0457-4eea-a42d-983180073390.png)
 
-
-## How To Install 
+## How To Install nginx
 
 >If you want to install version 1.20.2 specifically, you will need to add the official nginx repository to your Sources list.
 
