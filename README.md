@@ -1,63 +1,14 @@
 # who-to-install-and-upgrade-nginx-to-latest-version
-I am using Ubuntu 20.04 and i have installed nginx using sudo apt update sudo apt install nginx
+I am using Ubuntu 20.04 and I have installed nginx using sudo apt update sudo apt install nginx
 
 ## Installation instructions
-Before you install nginx for the first time on a new machine, you need to set up the nginx packages repository. Afterward, you can install and update nginx from the repository.
-
-## Supported distributions and versions
-nginx packages are available for the following Linux distributions and versions:
-
-**RHEL/CentOS**
-
-Version	Supported Platforms
-```
-7.4+	x86_64, ppc64le, aarch64/arm64
-8.x	x86_64, aarch64/arm64, s390x
-```
-**Debian**
-
-Version	Supported Platforms
-
-```
-10.x “buster”	x86_64, i386, aarch64/arm64
-11.x “bullseye”	x86_64, aarch64/arm64
-```
-**Ubuntu**
-
-Version	Supported Platforms
-```
-18.04 “bionic”	x86_64, aarch64/arm64
-20.04 “focal”	x86_64, aarch64/arm64, s390x
-21.10 “impish”	x86_64, aarch64/arm64
-```
-**SLES**
-
-Version	Supported Platforms
-```
-12 SP5+	x86_64
-15 SP2+	x86_64
-```
-**Alpine**
-
-Version	Supported platforms
-```
-3.12	x86_64, aarch64/arm64
-3.13	x86_64, aarch64/arm64
-3.14	x86_64, aarch64/arm64
-3.15	x86_64, aarch64/arm64
-```
-**Amazon Linux**
-
-Version	Supported platforms
-```
-2 (LTS)	x86_64, aarch64/arm64
-```
+Before installing Nginx for the first time on a new machine, you must set up the Nginx packages repository. Afterwards, you can install and update nginx from the repository.
 
 ![image](https://user-images.githubusercontent.com/71556060/204502437-b4d3b759-0457-4eea-a42d-983180073390.png)
 
 ## How To Install nginx
 
->If you want to install version 1.20.2 specifically, you will need to add the official nginx repository to your Sources list.
+>If you want to install version 1.20.2 specifically, you will need to add the official Nginx repository to your Sources list.
 
 Here is how you do it:
 
@@ -187,7 +138,7 @@ http {
 
 ```
 
-also create the directory of sites-avalible and sites-enabled in the same above path.
+also create the directory of sites-available and sites-enabled in the same above path.
 ```
 sudo mkdir /etc/nginx/sites-enabled/
 ```
@@ -197,4 +148,28 @@ sudo mkdir /etc/nginx/sites-available/
 ```
 
 SEE YOU NEXT TIME, BEST OF LUCK
+______________________________________________________________________________________________
+
+
+Enabling Gzip compression in Nginx
+===================================
+for a Laravel API server can significantly improve response times by reducing the size of the data sent over the network. Here are the steps to enable Gzip compression in Nginx for a Laravel server:
+
+# Enable Gzip Compression
+open the nginx configuration/etc/nginx/nginx.conf
+```
+         gzip on;
+         gzip_vary on;
+         gzip_proxied any;
+         gzip_comp_level 1;
+         gzip_buffers 16 8k;
+         gzip_http_version 1.1;
+         gzip_types text/plain text/css application/json application/javascript text/xml application/xml application/xml+rss text/javascript;
+```
+
+You can use online tools or browser developer tools to verify that Gzip compression is enabled for your API responses.
+With these steps, you should have Gzip compression enabled for your Laravel API server using Nginx, resulting in faster and more efficient responses.
+
+
+
 
