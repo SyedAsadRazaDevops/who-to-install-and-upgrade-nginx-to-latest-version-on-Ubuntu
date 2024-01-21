@@ -155,7 +155,7 @@ Enabling Gzip compression in Nginx
 ===================================
 for a Laravel API server can significantly improve response times by reducing the size of the data sent over the network. Here are the steps to enable Gzip compression in Nginx for a Laravel server:
 
-# Enable Gzip Compression
+Enable Gzip Compression:
 open the nginx configuration/etc/nginx/nginx.conf
 ```
          gzip on;
@@ -165,6 +165,10 @@ open the nginx configuration/etc/nginx/nginx.conf
          gzip_buffers 16 8k;
          gzip_http_version 1.1;
          gzip_types text/plain text/css application/json application/javascript text/xml application/xml application/xml+rss text/javascript;
+```
+```
+sudo nginx -t
+sudo nginx -s reload
 ```
 
 You can use online tools or browser developer tools to verify that Gzip compression is enabled for your API responses.
